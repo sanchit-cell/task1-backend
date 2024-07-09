@@ -19,7 +19,7 @@ passport.use(
       {
         clientID: keys.facebookClientID,
         clientSecret: keys.facebookClientSecret,
-        callbackURL: '/auth/facebook/callback',
+        callbackURL: 'https://task1-backend-chw7.onrender.com//auth/facebook/callback',
         profileFields: ['id', 'displayName', 'photos'],
         scope: ['manage_pages', 'pages_show_list', 'pages_read_engagement']
       },
