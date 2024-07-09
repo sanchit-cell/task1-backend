@@ -31,7 +31,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://task1-w74l.onrender.com/", // your frontend domain
+    origin: "https://task1-w74l.onrender.com", // your frontend domain
     credentials: true, // allows session cookies to be sent and received
   })
 );
