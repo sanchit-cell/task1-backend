@@ -19,7 +19,7 @@ router.get(
 router.get(
   "/auth/facebook/callback",
   passport.authenticate("facebook", {
-    failureRedirect: "https://task1-w74l.onrender.com/",
+    failureRedirect: "https://www.google.com/",
   }),
   (req, res) => {
     res.redirect("https://task1-w74l.onrender.com/");
