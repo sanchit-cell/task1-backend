@@ -22,6 +22,7 @@ router.get(
     failureRedirect: "https://www.google.com/",
   }),
   (req, res) => {
+    req.session.user = req.user
     res.redirect("https://task1-w74l.onrender.com/");
   }
 );
