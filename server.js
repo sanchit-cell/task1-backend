@@ -34,7 +34,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:3000", // your frontend domain
+    origin: "*", // your frontend domain
     credentials: true, // allows session cookies to be sent and received
   })
 );
